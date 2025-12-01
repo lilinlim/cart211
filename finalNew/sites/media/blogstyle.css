@@ -29,7 +29,7 @@
 }
 
 .fakeimg {
-    background-color: #aaa;
+    background-color: pink;
     width: 100%;
     padding: 20px;
 }
@@ -62,4 +62,5 @@
     width: 100%;
     padding: 0;
   }
+
 }
