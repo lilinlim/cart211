@@ -1,0 +1,89 @@
+body {
+    background-color: lightcyan;
+}
+
+.aquarium {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+/* background-image: url("../../images/aquarium.jpg");
+    height: 100%;
+    width:y
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+img.fish {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 100px;
+    animation: animateFish 6s linear infinite;
+}
+
+img.fish1 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 100px;
+    animation: animateFish 6s linear infinite;
+}
+
+img.fish2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 100px;
+    animation: animateFish 6s linear infinite;
+}
+
+img.fish3 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100px;
+    /* transform: rotate(360deg); */
+    animation: animateFishOther 6s linear infinite;
+}
+
+img.fish4 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 100px;
+    animation: animateFishOther 6s linear infinite;
+}
+
+@keyframes animateFish {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    50% {
+        transform: translate(340px, 0) rotateY(180deg);
+    }
+    51% {
+        transform: translate(340px, 0) rotateY(0deg);
+    }
+    100% {
+        transform: translate(0, 0) rotateY(0deg);
+    }
+}
+
+@keyframes animateFishOther {
+    0% {
+        transform: translate(0, 0) rotateY(0deg);
+    }
+    50% {
+        transform: translate(-340px, 0) rotateY(0deg);
+    }
+    51% {
+        transform: translate(-340px, 0) rotateY(180deg);
+    }
+    100% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+}

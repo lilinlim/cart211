@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  color: white;
+  background-color: white;
+}
+
+#unique {
+  background: #ffa1c3;
+  background: linear-gradient(90deg,rgba(255, 161, 195, 1) 0%, rgba(255, 214, 214, 1) 50%, rgba(255, 235, 235, 1) 100%);
+  background: -webkit-linear-gradient(to right,rgba(255, 161, 195, 1), rgba(255, 214, 214, 1), rgba(255, 235, 235, 1));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.drawingcontainer {
+  height: 100%;
+  display: flex;
+  background-image: url("../../images/stars.jpg");
+}
+
+#toolbar {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 70px;
+  background-color: dimgrey;
+  border-right: 2px ridge pink;
+}
+
+#toolbar * {
+  margin-bottom: 6px;
+}
+
+#toolbar label{
+  font-size: 12px;
+}
+
+#toolbar input{
+  width: 100%;
+}
+
+#toolbar button {
+  background-color: lemonchiffon;
+  border: none;
+  border-radius: 4px;
+  color: black;
+  padding: 2px;
+}

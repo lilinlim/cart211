@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8" />
+        <title> Elle Final </title>
+        <meta name="description" content="Final">
+        <meta property="og:title" content="Final">
+        <meta property="og:description" content="Final">
+        <meta name="author" content="Elle Lilin Kyuss Lim-Fauteux">
+        
+        <link rel="stylesheet" href="media/drawingstyle.css">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <section class="drawingcontainer">
+                <div id="toolbar">
+                    <h1 id="unique"> draw </h1>
+                    <label for="stroke"> stroke </label>
+                    <input id="stroke" name="stroke" type="color">
+                    <label for="lineWidth"> width </label>
+                    <input id="lineWidth" name="lineWidth" type="number" value="5">
+                    <button id="clear"> clear </button>
+                </div>
+                <div class="drawingBoard">
+                    <canvas id="drawingBoard"></canvas>
+                </div>
+            </section>
+
+            <script src="media/drawingpad.js"></script>
+    </body>
+</html>

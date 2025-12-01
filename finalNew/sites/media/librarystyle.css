@@ -1,0 +1,50 @@
+body {
+    background-image: url("../../images/stars3.jpg");
+}
+.container {
+    padding: 5px;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+}
+
+.box-left {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: mistyrose;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    border: 2px dotted pink;
+    background-image: url("../../images/polkadot1.jpg");
+}
+
+.box-middle {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: mistyrose;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    border: 2px dotted pink;
+    background-image: url("../../images/polkadot1.jpg");
+}
+
+.box-right {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: mistyrose;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 10px;
+    border: 2px dotted pink;
+    background-image: url("../../images/polkadot1.jpg");
+}

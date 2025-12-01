@@ -1,0 +1,64 @@
+body {
+    background-color: lightcyan;
+    margin: 0;
+}
+
+.aquarium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.aquarium img {
+    width: 100%;
+    border: 2px ridge plum;
+}
+
+img.fish {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 100px;
+    animation: animateFish 6s linear infinite;
+}
+
+img.fish1 {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    width: 100px;
+    animation: animateFish 6s linear infinite;
+}
+
+img.fish2 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 100px;
+    animation: animateFish 6s linear infinite;
+}
+
+@keyframes animateFish {
+    0% {
+        transform: translate(0, 0) rotateY(180deg);
+    }
+    50% {
+        transform: translate(340px, 0) rotateY(180deg);
+    }
+    51% {
+        transform: translate(340px, 0) rotateY(0deg);
+    }
+    100% {
+        transform: translate(0, 0) rotateY(0deg);
+    }
+}
+
+@media(max-width: 780px) {
+    .aquarium {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+}

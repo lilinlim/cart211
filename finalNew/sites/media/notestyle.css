@@ -1,0 +1,73 @@
+.notesBody {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ncontainer {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, thistle, lightpink, mistyrose);
+    color: white;
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-bottom: 10px;
+}
+
+.ncontainer h1 {
+    display: flex;
+    padding: 10px;;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+    max-width: 80%;
+    border:2px ridge thistle;
+    border-radius: 5px;
+    background-image: url("../../images/stars1.jpg");
+    color: thistle;
+}
+
+.ncontainer h1 img {
+    width: 60px;
+}
+
+.ncontainer button img {
+    width: 25px;
+    margin-right: 8px;
+}
+
+.ncontainer button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(thistle, white);
+    color: white;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    /*cursor: pointer;*/
+    border:2px ridge thistle;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    max-width: 80%;
+    min-height: 150px;
+    background-image: url("../../images/stars1.jpg");
+    color: grey;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 5px;
+    border:2px ridge thistle;
+}
+
+.input-box img {
+    width: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}

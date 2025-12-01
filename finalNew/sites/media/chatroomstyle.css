@@ -1,0 +1,68 @@
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 20px;
+  color: grey;
+}
+
+h2 {
+  border: 2px solid #dedede;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.container1 {
+  width: 100%;
+  padding: 10px;
+  padding-bottom: 40px;
+  border: 2px solid #dedede;
+  background-image: url("../../images/sprinkles.jpg");
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.container {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #dedede;
+  background-color: white;
+  /* background-image: url("../../images/stars1.jpg"); */
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.chatmessage {
+  border: 2px solid #dedede;
+  background-color: thistle;
+  background: linear-gradient(thistle, lavenderblush);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.memessage {
+  border-color: #dedede;
+  background-color: lavenderblush;
+  background: linear-gradient(pink, lavenderblush);
+}
+
+.chatmessage::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.chatmessage img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.chatmessage img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right: 0;
+}

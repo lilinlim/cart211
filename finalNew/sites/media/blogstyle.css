@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+.bodyBlog{
+    font-family: Arial;
+    padding: 20px;
+    background-image: url("../../images/plaid.jpg");
+}
+
+.headerBlog {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    border: 2px dotted pink;
+    box-shadow: 5px 10px pink;
+}
+
+.leftcolumnBlog {
+    float: left;
+    width: 75%;
+}
+
+.rightcolumnBlog {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.cardBlog {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border: 2px dotted pink;
+    box-shadow: 5px 10px pink;
+}
+
+.rowBlog:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footerBlog {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    border: 2px dotted pink;
+    box-shadow: 5px 10px pink;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumnBlog, .rightcolumnBlog {   
+    width: 100%;
+    padding: 0;
+  }
+}

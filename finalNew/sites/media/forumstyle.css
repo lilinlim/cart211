@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: lightpink;
+}
+
+
+/* Header/Blog Title */
+nav {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 20px;
+  line-height: 100px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  border-bottom: 2px ridge pink;
+  background: mistyrose;
+  background-color: mistyrose;
+  background: linear-gradient(mistyrose, lavenderblush);
+  z-index: 1000;
+}
+
+
+/* Add a card effect for articles */
+.container {
+  background-color: white;
+  padding: 0px;
+  margin-top: 20px;
+  border: 2px ridge pink;
+  margin: 10px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: mistyrose;
+  background-color: mistyrose;
+  background: linear-gradient(mistyrose, lavenderblush);
+  font-size: 10px;
+  padding: 5px;
+  text-align: left;
+  border-bottom: 2px ridge pink;
+}
